@@ -1,0 +1,229 @@
+<html lang="en"><head><style type="text/css">[uib-typeahead-popup].dropdown-menu{display:block;}</style><style type="text/css">.uib-time input{width:50px;}</style><style type="text/css">[uib-tooltip-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom > .tooltip-arrow,[uib-popover-popup].popover.top-left > .arrow,[uib-popover-popup].popover.top-right > .arrow,[uib-popover-popup].popover.bottom-left > .arrow,[uib-popover-popup].popover.bottom-right > .arrow,[uib-popover-popup].popover.left-top > .arrow,[uib-popover-popup].popover.left-bottom > .arrow,[uib-popover-popup].popover.right-top > .arrow,[uib-popover-popup].popover.right-bottom > .arrow,[uib-popover-html-popup].popover.top-left > .arrow,[uib-popover-html-popup].popover.top-right > .arrow,[uib-popover-html-popup].popover.bottom-left > .arrow,[uib-popover-html-popup].popover.bottom-right > .arrow,[uib-popover-html-popup].popover.left-top > .arrow,[uib-popover-html-popup].popover.left-bottom > .arrow,[uib-popover-html-popup].popover.right-top > .arrow,[uib-popover-html-popup].popover.right-bottom > .arrow,[uib-popover-template-popup].popover.top-left > .arrow,[uib-popover-template-popup].popover.top-right > .arrow,[uib-popover-template-popup].popover.bottom-left > .arrow,[uib-popover-template-popup].popover.bottom-right > .arrow,[uib-popover-template-popup].popover.left-top > .arrow,[uib-popover-template-popup].popover.left-bottom > .arrow,[uib-popover-template-popup].popover.right-top > .arrow,[uib-popover-template-popup].popover.right-bottom > .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}</style><style type="text/css">.uib-datepicker-popup.dropdown-menu{display:block;float:none;margin:0;}.uib-button-bar{padding:10px 9px 2px;}</style><style type="text/css">.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute !important;top:-9999px !important;width:50px !important;height:50px !important;overflow:scroll !important;}.uib-position-body-scrollbar-measure{overflow:scroll !important;}</style><style type="text/css">.uib-datepicker .uib-title{width:100%;}.uib-day button,.uib-month button,.uib-year button{min-width:100%;}.uib-left,.uib-right{width:100%}</style><style type="text/css">.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="utf-8">
+    <title>NUSWhispers</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta name="description" content="Have an interesting story to share or just need to get something off your chest? Tell us your story here at NUSWhispers! No one will know it was you.">
+    <meta name="keywords" content="NUSWhispers,Confessions,NUS">
+    <meta property="og:title" content="NUSWhispers">
+    <meta property="og:description" content="Have an interesting story to share or just need to get something off your chest? Tell us your story here at NUSWhispers! No one will know it was you.">
+    <meta property="og:image" content="http://nuswhispers.com/favicon-512x512.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#0092c6">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#0092c6">
+    <base href="/">
+  <link href="assets/web/vendor.css" rel="stylesheet"><link href="assets/web/app.css" rel="stylesheet"><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#1d3c78;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style><script id="facebook-jssdk" async="" src="//connect.facebook.net/en_US/sdk.js"></script></head>
+
+  <body ng-app="nuswhispersApp" ng-controller="MainController as mainVm" ng-class="mainVm.sidebarOpenedClass" class="ng-scope">
+    <div id="wrapper">
+      <nav id="sidebar-wrapper">
+        <a class="whispers-brand navbar-brand" href="/#!home">
+          <div class="whispers-logo"></div>
+          <div class="whispers-logo-text">
+            NUS<span class="highlight">Whispers</span>
+          </div>
+        </a>
+        <hr>
+        <ul class="nav main-nav">
+          <li ng-class="{active: mainVm.isActivePage('/submit/')}">
+            <a href="/#!submit"><span class="typcn typcn-heart-full-outline"></span>Post
+              Confession</a>
+          </li>
+          <li ng-class="{active: mainVm.isActivePage('/home/')}">
+            <a href="/#!home"><span class="typcn typcn-pin"></span>Featured</a>
+          </li>
+          <li ng-class="{active: mainVm.isActivePage('/popular/')}">
+            <a href="/#!popular"><span class="typcn typcn-chart-line"></span>Popular</a>
+          </li>
+          <li ng-class="{active: mainVm.isActivePage('/latest/')}">
+            <a href="/#!latest"><span class="typcn typcn-starburst"></span>Latest</a>
+          </li>
+          <li ng-show="mainVm.isLoggedIn" ng-class="{active: mainVm.isActivePage('/favourites/')}" class="ng-hide">
+            <a href="/#!favourites"><span class="typcn typcn-star-full-outline"></span>Favourites</a>
+          </li>
+        </ul>
+        <hr>
+        <h2 class="nav-section-label">Categories</h2>
+        <ul class="nav">
+          <!-- ngRepeat: category in mainVm.categories --><li ng-repeat="category in mainVm.categories" class="ng-scope" style="">
+            <a ng-href="/#!category/10" ng-bind="category.confession_category" class="ng-binding" href="/#!category/10">Advice</a>
+          </li><!-- end ngRepeat: category in mainVm.categories --><li ng-repeat="category in mainVm.categories" class="ng-scope">
+            <a ng-href="/#!category/5" ng-bind="category.confession_category" class="ng-binding" href="/#!category/5">Funny</a>
+          </li><!-- end ngRepeat: category in mainVm.categories --><li ng-repeat="category in mainVm.categories" class="ng-scope">
+            <a ng-href="/#!category/6" ng-bind="category.confession_category" class="ng-binding" href="/#!category/6">Lost and Found</a>
+          </li><!-- end ngRepeat: category in mainVm.categories --><li ng-repeat="category in mainVm.categories" class="ng-scope">
+            <a ng-href="/#!category/9" ng-bind="category.confession_category" class="ng-binding" href="/#!category/9">Nostalgia</a>
+          </li><!-- end ngRepeat: category in mainVm.categories --><li ng-repeat="category in mainVm.categories" class="ng-scope">
+            <a ng-href="/#!category/8" ng-bind="category.confession_category" class="ng-binding" href="/#!category/8">Rant</a>
+          </li><!-- end ngRepeat: category in mainVm.categories --><li ng-repeat="category in mainVm.categories" class="ng-scope">
+            <a ng-href="/#!category/7" ng-bind="category.confession_category" class="ng-binding" href="/#!category/7">Romance</a>
+          </li><!-- end ngRepeat: category in mainVm.categories -->
+        </ul>
+        <hr>
+        <h2 class="nav-section-label">Popular Tags</h2>
+        <ul class="nav">
+          <!-- ngRepeat: tag in mainVm.tags --><li ng-repeat="tag in mainVm.tags" class="ng-scope" style="">
+            <a ng-href="/#!tag/backupplan" ng-bind="tag.confession_tag | truncate: 20" title="#backupplan" class="ng-binding" href="/#!tag/backupplan">#backupplan</a>
+          </li><!-- end ngRepeat: tag in mainVm.tags --><li ng-repeat="tag in mainVm.tags" class="ng-scope">
+            <a ng-href="/#!tag/POCARISWEAT" ng-bind="tag.confession_tag | truncate: 20" title="#POCARISWEAT" class="ng-binding" href="/#!tag/POCARISWEAT">#POCARISWEAT</a>
+          </li><!-- end ngRepeat: tag in mainVm.tags --><li ng-repeat="tag in mainVm.tags" class="ng-scope">
+            <a ng-href="/#!tag/notsponsored" ng-bind="tag.confession_tag | truncate: 20" title="#notsponsored" class="ng-binding" href="/#!tag/notsponsored">#notsponsored</a>
+          </li><!-- end ngRepeat: tag in mainVm.tags --><li ng-repeat="tag in mainVm.tags" class="ng-scope">
+            <a ng-href="/#!tag/ModRekt" ng-bind="tag.confession_tag | truncate: 20" title="#ModRekt" class="ng-binding" href="/#!tag/ModRekt">#ModRekt</a>
+          </li><!-- end ngRepeat: tag in mainVm.tags --><li ng-repeat="tag in mainVm.tags" class="ng-scope">
+            <a ng-href="/#!tag/adult" ng-bind="tag.confession_tag | truncate: 20" title="#adult" class="ng-binding" href="/#!tag/adult">#adult</a>
+          </li><!-- end ngRepeat: tag in mainVm.tags -->
+        </ul>
+      </nav>
+      <div id="main-wrapper">
+        <div id="topbar-wrapper">
+          <button type="button" class="navbar-toggle" ng-click="mainVm.toggleSidebar()">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="topbar-nav">
+            <a class="btn btn-social-media" href="https://github.com/nusmodifications/nuswhispers" target="_blank" tooltip-placement="bottom" uib-tooltip="Contribute to NUSWhispers!"><span class="typcn typcn-social-github"></span></a>
+            <a class="btn btn-alt-style" href="/#!/submit">
+              <span class="typcn typcn-plus"></span>
+              &nbsp;Post<span class="hidden-sm hidden-xs">&nbsp;Confession</span>
+            </a>
+          </div>
+          <form class="search-form ng-pristine ng-valid" role="search" ng-submit="mainVm.searchConfessions(mainVm.searchQuery)">
+            <div class="input-group">
+              <span id="search-input-addon" class="input-group-addon">
+                <span class="typcn typcn-zoom"></span>
+              </span>
+              <input type="text" ng-model="mainVm.searchQuery" class="search-input form-control ng-pristine ng-untouched ng-valid ng-empty" aria-describedby="search-input-addon" placeholder="Search">
+            </div>
+          </form>
+        </div>
+        <div id="content-wrapper" class="container">
+          <!-- ngView: --><div class="col-lg-8 col-md-12 col-sm-12 ng-scope" ng-view=""><div id="post-list" infinite-scroll="vm.getConfessions()" infinite-scroll-disabled="vm.loadingConfessions || !vm.doLoadMoreConfessions" infinite-scroll-distance="1" class="ng-scope ng-isolate-scope">
+  <div class="alert ng-hide" ng-show="vm.view === 'favourites' &amp;&amp; vm.fbUser.accessToken === '' &amp;&amp; !vm.loadingConfessions">
+    Please log in to view your favourites or
+    <a href="/#!home">go back to the main page</a>.
+  </div>
+  <div class="alert ng-hide" ng-show="vm.view !== 'favourites' &amp;&amp; (vm.confessions.length === 0) &amp;&amp; !vm.loadingConfessions">
+    No confessions to display.
+    <a href="/#!submit">How about submitting your own?</a>
+  </div>
+  <!-- ngRepeat: confession in vm.confessions --><div ng-hide="vm.view === 'favourites' &amp;&amp; vm.fbUser.accessToken === ''" class="post ng-scope" ng-repeat="confession in vm.confessions" style="">
+    <div class="post-header">
+      <span ng-show="confession.categories.length === 0" class="ng-hide">
+        No Category
+      </span>
+      <!-- ngRepeat: category in confession.categories --><span ng-repeat="category in confession.categories" class="ng-binding ng-scope">
+        <a href="/#!category/10" class="ng-binding">Advice</a>
+      </span><!-- end ngRepeat: category in confession.categories -->
+      <div class="share-social-media">
+        SHARE:
+        <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fnuswhispers.com%2Fconfession%2F67213/" target="_blank" class="btn btn-social-media">
+          <span class="typcn typcn-social-twitter"></span>
+        </a>
+        <a ng-click="vm.shareConfessionFB(confession.confession_id)" target="_blank" class="btn btn-social-media">
+          <span class="typcn typcn-social-facebook"></span>
+        </a>
+      </div>
+    </div>
+    <div class="post-content">
+      <a ng-href="/#!tag/67213" ng-bind="'#' + confession.confession_id" class="ng-binding" href="/#!tag/67213">#67213</a>:&nbsp;
+      <span class="post-text ng-binding" ng-bind-html="confession.content | escapeHtml | linkTags | parseUrl"><a href="https://www.straitstimes.com/tech/pilot-scheme-to-facilitate-hiring-of-foreign-talent-in-tech-firms" target="_blank">https://www.straitstimes.com/tech/pilot-scheme-to-facilitate-hiring-of-foreign-talent-in-tech-firms</a> 
+SoC graduates just got screwed by the gov. How to survive in such a competitive environment?</span><br>
+      <img class="post-image ng-hide" ng-hide="confession.images == null">
+      <div class="post-facebook-link">
+        <a ng-href="https://www.facebook.com/permalink.php?story_fbid=2847198762017233&amp;id=695707917166339" target="_blank" href="https://www.facebook.com/permalink.php?story_fbid=2847198762017233&amp;id=695707917166339">View on Facebook</a>
+      </div>
+    </div>
+    <div class="post-footer">
+      <span class="typcn typcn-watch"></span><span am-time-ago="confession.status_updated_at_timestamp | amFromUnix" class="post-time">2 days ago</span>
+      <div class="post-media-summary">
+        <a href="/#!home" class="tweets-count liked" target="_blank">8</a>
+        <a ng-href="https://www.facebook.com/permalink.php?story_fbid=2847198762017233&amp;id=695707917166339" target="_blank" class="post-media-action-btn show-comments-btn ng-binding" tooltip-placement="bottom" uib-tooltip="View Comments on Facebook" href="https://www.facebook.com/permalink.php?story_fbid=2847198762017233&amp;id=695707917166339">12</a>
+        <a ng-click="vm.toggleLikeConfession(confession)" ng-class="{liked: vm.confessionIsLiked(confession)}" class="post-media-action-btn fb-likes ng-binding" target="_blank" tooltip-placement="bottom" uib-tooltip="Like">8</a>
+        <a ng-click="vm.toggleFavouriteConfession(confession)" ng-class="{liked: vm.confessionIsFavourited(confession)}" class="post-media-action-btn favs-count ng-binding" target="_blank" tooltip-placement="bottom" uib-tooltip="Favourite">0</a>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: confession in vm.confessions -->
+  <div ng-show="vm.loadingConfessions" class="loading ng-hide" style=""></div>
+</div>
+</div>
+          <div class="col-lg-4 col-md-12 col-sm-12 likebox-wrapper">
+            <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/nuswhispers/" data-small-header="false" data-adapt-container-width="true" data-width="300" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=1577825682475577&amp;container_width=766&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fnuswhispers%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;width=300"><span style="vertical-align: bottom; width: 300px; height: 181px;"><iframe name="f99bbca82497d4" width="300px" height="1000px" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&amp;app_id=1577825682475577&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df2400e61ccb43d4%26domain%3Dnuswhispers.com%26origin%3Dhttps%253A%252F%252Fnuswhispers.com%252Ff3b6adc5625d5%26relation%3Dparent.parent&amp;container_width=766&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fnuswhispers%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;width=300" style="border: none; visibility: visible; width: 300px; height: 181px;" class=""></iframe></span></div>
+            <footer class="ng-binding">
+              NUSWhispers © 2015 – 2019 •
+              <a href="/policy/">Privacy Policy</a> •
+              <a href="mailto:nuswhispers@googlegroups.com" target="_blank">
+                Feedback
+              </a>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://connect.facebook.net/en_US/sdk.js?hash=4dd36977b547b0e213caf5b2455825c8&amp;ua=modern_es6" async="" crossorigin="anonymous"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/api2/v1563777128698/recaptcha__en.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script id="facebook-jssdk" src="//connect.facebook.net/en_US/sdk.js"></script><script src="//www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&amp;render=explicit" async="" defer=""></script>
+    <script type="text/javascript" async="" src="//platform.twitter.com/widgets.js"></script>
+    <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div><iframe name="fb_xdm_frame_https" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f3b6adc5625d5&amp;origin=https%3A%2F%2Fnuswhispers.com" style="border: none;"></iframe></div><div></div></div></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId: '1577825682475577',
+          xfbml: true,
+          version: 'v2.6',
+        });
+      };
+      (function(d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+          return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = '//connect.facebook.net/en_US/sdk.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, 'script', 'facebook-jssdk');
+    </script>
+    <script type="text/javascript">
+      (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        'script',
+        '//www.google-analytics.com/analytics.js',
+        'ga'
+      );
+      ga('create', 'UA-61558266-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- endbuild -->
+  <script type="text/javascript" src="assets/web/vendor.js"></script><script type="text/javascript" src="assets/web/app.js"></script>
+
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.0639d67d95b7680840758b6833f06d87.html?origin=https%3A%2F%2Fnuswhispers.com" title="Twitter settings iframe" style="display: none;"></iframe></body></html>
