@@ -15,9 +15,11 @@ class TestScraperGetContents(unittest.TestCase):
         with open(tu.VALID_POST_67213_HTML_DIR, 'r', encoding = 'utf-8') as f:
             test_html += f.read()
             f.close()
-        actual_post_text = self.scraper._get_post_contents(test_html)
-        expected_post_text = tu.VALID_POST_67213_TEXT
-        self.assertEqual(actual_post_text, expected_post_text)
+        actual_categories, actual_text, actual_num_likes, actual_num_comments, \
+                actual_age, actual_num_favs = \
+                self.scraper._get_post_contents(test_html)
+        expected_text = tu.VALID_POST_67213_TEXT
+        self.assertEqual(actual_text, expected_text)
 
     def tearDown(self):
         self.scraper._chrome_driver.quit()

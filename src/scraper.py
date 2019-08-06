@@ -12,7 +12,6 @@ chrome_options.add_argument("--window-position=0,0");
 # chrome_options.add_argument('--headless')
 # warnings from recaptcha
 import datetime
-from src.data_saver import DataSaver
 from src.duplicate_post_idx_exception import DuplicatePostIdxException
 from multiprocessing import Pool, cpu_count
 import multiprocessing
@@ -50,7 +49,7 @@ class WhispersScraper():
 
         """
         self._url = 'https://nuswhispers.com/tag/'
-        self._chrome_driver = webdriver.Chrome(chrome_options = chrome_options)
+        self._chrome_driver = webdriver.Chrome(options = chrome_options)
         self.post_content = {}
     
     def empty_post_content(self):
@@ -133,7 +132,7 @@ class WhispersScraper():
         html : str
             The HTML of the webpage, converted to str
         """
-        time.sleep(1)
+        time.sleep(2)
         # wait for post to load
         self._load_all_posts()
         html = self._chrome_driver\
@@ -147,7 +146,7 @@ class WhispersScraper():
         """
         self._chrome_driver.execute_script(\
                 "window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(1)
+        time.sleep(2)
 
     def _get_post_contents(self, posts_html):
         """
@@ -167,9 +166,9 @@ class WhispersScraper():
         posts = soup.findAll('div', {'class':'post ng-scope'})
         # All posts with the index in their content is obtained. Thus,
         # posts may contain posts that we may not want.
-        post_category, post_text, post_num_likes, post_num_comments, post_age = None, None, None, None, None 
+        post_category, post_text, num_likes, num_comments, post_age, post_num_favs = None, None, None, None, None, None
         if not posts:
-            return post_category, post_text, num_likes, num_comments, post_age
+            return post_category, post_text, num_likes, num_comments, post_age, post_num_favs
         desired_post_html = posts[-1] 
         post_category = self._get_post_category_from_html(desired_post_html)
         post_text = self._get_post_text_from_html(desired_post_html)
