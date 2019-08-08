@@ -2,7 +2,6 @@ from scraper import WhispersScraper
 from transfer_to_file_utils import TransferToFileUtils
 from incorrect_idx_order_exception import IncorrectIdxOrderException
 import datetime
-import threading
 import argparse
 
 def main():

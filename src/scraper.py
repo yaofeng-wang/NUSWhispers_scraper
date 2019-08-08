@@ -12,10 +12,8 @@ chrome_options.add_argument("--window-position=0,0");
 # chrome_options.add_argument('--headless')
 # warnings from recaptcha
 import datetime
-from src.duplicate_post_idx_exception import DuplicatePostIdxException
+from duplicate_post_idx_exception import DuplicatePostIdxException
 from multiprocessing import Pool, cpu_count
-import multiprocessing
-import threading
     
 class WhispersScraper():
     """

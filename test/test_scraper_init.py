@@ -1,8 +1,8 @@
 import unittest
 import sys
 import os
-sys.path.insert(0, os.path.abspath('..'))
-from src.scraper import WhispersScraper
+sys.path.insert(0, os.path.abspath('../src'))
+from scraper import WhispersScraper
 from test.test_utils import TestUtils as tu
 from selenium import webdriver
 
