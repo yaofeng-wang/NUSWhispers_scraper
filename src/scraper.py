@@ -90,6 +90,7 @@ class WhispersScraper():
         """
         if post_idx in self.post_content:
             raise DuplicatePostIdxException("The post index already exist.")
+
         full_url = self._get_full_url(post_idx)
         self._set_url(full_url)
         posts_html = self._get_html()
